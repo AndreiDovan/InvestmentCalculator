@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stock Calculator</title>
+  </head>
+  <body>
+    <!-- Title -->
+    <header>
+      <h1>Stock Calculator</h1>
+    </header>
+
+    <main>
+      <!--Meeting card-->
+      <div class="meet-card card">
+        <p class="card-text">Hi there, investor!</p>
+        <br />
+        <p>How should we call you?</p>
+        <br />
+        <input type="text" class="meet-form form" /> <br />
+        <button class="submit submit-name">Submit</button>
+      </div>
+
+      <!--Introduction card-->
+      <div class="introd-card card">
+        <p class="text card-text introd-text">Introduction content</p>
+        <button class="submit submit-introd">Let's go!</button>
+      </div>
+      <div class="calculate-wrap">
+        <div class="card-wrap">
+          <!--Dividend yield card-->
+          <div class="yield-card card">
+            <div class="submitted-text1">
+              <p>Submitted content placeholder</p>
+            </div>
+            <div class="card-content1">
+              <p class="text">
+                Please enter the annual dividend yield* for the stock you want
+                to buy.
+              </p>
+              <input type="number" class="data-form form dividend-form" /><br />
+              <button class="submit submit-yield">Submit</button>
+              <p class="small-text">*It must be in percentage</p>
+            </div>
+          </div>
+
+          <!--Quarters card-->
+          <div class="quarters-card card">
+            <div class="submitted-text2">
+              <p>Submitted content placeholder</p>
+            </div>
+            <div class="card-content2">
+              <p class="sm-text text">How many quarters per year.</p>
+              <input type="number" class="data-form form quarters-form" /><br />
+              <button class="submit submit-quarters">Submit</button>
+            </div>
+          </div>
+
+          <!--Amount card-->
+          <div class="amount-card card">
+            <div class="submitted-text3">
+              <p>Submitted content placeholder</p>
+            </div>
+            <div class="card-content3">
+              <p class="sm-text text">How much money per month.</p>
+              <input type="number" class="data-form form amount-form" /><br />
+              <button class="submit submit-amount">Submit</button>
+            </div>
+          </div>
+
+          <!--Years card-->
+          <div class="years-card card">
+            <div class="submitted-text4">
+              <p>Submitted content placeholder</p>
+            </div>
+            <div class="card-content4">
+              <p class="text">Enter the number of years.</p>
+              <input type="number" class="data-form form years-form" /><br />
+              <button class="submit submit-years">Submit</button>
+            </div>
+          </div>
+        </div>
+        <!--Calculate-->
+        <button class="calculate submit">Calculate</button>
+      </div>
+      <div class="result-card card">
+        <p class="card-text">Result placeholder</p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

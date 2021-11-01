@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Old+Mincho&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("wallpaper.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 3vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 1px 1px 4px #999;
+}
+
+.calculate-wrap {
+  display: none;
+  width: 90vw;
+  margin: auto;
+  border: 5px solid white;
+  padding: 15px 0px;
+  border-radius: 30px;
+}
+
+.card-wrap {
+  display: flex;
+  margin: auto;
+  width: 85vw;
+}
+
+.card {
+  padding: 20px;
+  background-color: #fff;
+  margin: auto;
+  color: #0077b6;
+  width: 20vw;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px -3px #ccc;
+  text-align: center;
+  font-family: "Zen Old Mincho", serif;
+  font-weight: bold;
+  padding-top: 50px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.meet-card p:first-child {
+  font-size: 2rem;
+}
+
+.form {
+  font-family: "Roboto", sans-serif;
+  border-color: #0077b6;
+  height: 2rem;
+  font-size: 1.2rem;
+  width: 15vw;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.submit {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  margin-top: 20px;
+  color: #fff;
+  padding: 5px 8px;
+  background-color: #0077b6;
+  border-radius: 5px;
+  font-size: 1rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.introd-card {
+  display: none;
+  padding: 25px;
+  padding-top: 50px;
+}
+
+.introd-text {
+  text-align: left;
+}
+
+.data-form {
+  position: relative;
+  margin-top: 30px;
+}
+
+.small-text {
+  text-align: left;
+  font-size: small;
+  margin-top: 50px;
+}
+
+.sm-text {
+  margin-top: 4rem;
+}
+
+.meet-card {
+  padding-top: 100px;
+}
+
+.submitted-text1,
+.submitted-text2,
+.submitted-text3,
+.submitted-text4 {
+  display: none;
+  margin-top: 50%;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.calculate {
+  color: #0077b6;
+  background-color: #fff;
+  margin-left: calc(50% - 58px);
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.result-card {
+  display: none;
+}
